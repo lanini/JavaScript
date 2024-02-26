@@ -1,10 +1,16 @@
 :root{
     --cor-de-fundo:#6160FF;
     --verde: #1AFF48;
-    --botao-ativado: #2000FF; 
-    --botao-inativo: #ADB2FF;
+    --botao-ativado: hsl(248, 100%, 50%); 
+    --botao-inativo: #8e91c4;
     --texto-fundo: #6EA0FF;
 }
-h1{
+body{
+    background-color: var(--cor-de-fundo);
+    color: aliceblue;
     font-family: "Bebas Neue", sans-serif;
+}
+.botao{ 
+    background-color: var(--botao-inativo);
+    color: rgba(8, 4, 63, 0.938);
 }
